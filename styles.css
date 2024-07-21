@@ -1,0 +1,404 @@
+/*-------------------HEADER----------------------*/
+
+.navbar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.topbar {
+  background-color: #212529;
+  padding: 0;
+}
+
+.topbar .container .row {
+  margin: -7px;
+  padding: 0;
+}
+
+.topbar .container .row .col-md-12 {
+  padding: 0;
+}
+
+.topbar p {
+  margin: 0;
+  display: inline-block;
+  font-size: 13px;
+  color: #f1f6ff;
+}
+
+.topbar p > i {
+  margin-right: 5px;
+}
+
+.topbar p:last-child {
+  text-align: right;
+}
+
+header .navbar {
+  margin-bottom: 0;
+}
+
+.topbar li.topbar {
+  display: inline;
+  padding-right: 18px;
+  line-height: 52px;
+  transition: all 0.3s linear;
+}
+
+.topbar li.topbar:hover {
+  color: #1bbde8;
+}
+
+.topbar ul.info i {
+  color: #131313;
+  font-style: normal;
+  margin-right: 8px;
+  display: inline-block;
+  position: relative;
+  top: 4px;
+}
+
+.topbar ul.info li {
+  float: right;
+  padding-left: 30px;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 44px;
+}
+
+.topbar ul.info i span {
+  color: #aaa;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 50px;
+  padding-left: 18px;
+}
+
+ul.social-network {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.social-network li {
+  border: none;
+  margin: 0;
+}
+
+ul.social-network li i {
+  margin: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+  border: 0px solid #2d2d2d;
+  padding: 5px 0 0;
+  width: 32px;
+  display: inline-block;
+  text-align: center;
+  height: 32px;
+  vertical-align: baseline;
+  color: #000;
+}
+
+ul.social-network {
+  list-style: none;
+  margin: 5px 0 10px -25px;
+  float: right;
+}
+
+.waves-effect {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  vertical-align: middle;
+  z-index: 1;
+  will-change: opacity, transform;
+  transition: 0.3s ease-out;
+  color: #fff;
+}
+
+a {
+  color: #0a0a0a;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.bg-image-full {
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.bg-dark {
+  background-color: #222 !important;
+}
+
+.mx-background-top-linear {
+  background: -webkit-linear-gradient(45deg, #54d400 48%, #1b1e21 48%);
+  background: -webkit-linear-gradient(left, #54d400 48%, #1b1e21 48%);
+  background: linear-gradient(45deg, #54d400 48%, #1b1e21 48%);
+}
+
+.social-network {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-network li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-network li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social-network li a:hover {
+  color: #1bbde8;
+}
+
+/*------------------------ABOUT------------------------*/
+
+.silver-about {
+  background-color: #222222;
+  color: white;
+}
+
+/*-----------------------EDUCATION----------------------*/
+
+.silver-education {
+  background-color: #444444;
+  color: white;
+}
+
+/*-----------------------EXPERIENCE----------------------*/
+
+.silver-experience {
+  background-color: #333333;
+  color: white;
+}
+
+.accordion {
+  --bs-accordion-bg: #434343 !important;
+  --bs-accordion-color: white !important;
+  --bs-accordion-btn-icon: url(
+    data:image/svg + xml,
+    %3csvgxmlns="http://www.w3.org/2000/svg"viewBox="0 0 16 16"fill="none"stroke="#ffffff"stroke-linecap="round"stroke-linejoin="round"%3e%3cpathd="M2 5L8 11L14 5"/%3e%3c/svg%3e
+  ) !important;
+  --bs-accordion-active-color: #222222 !important;
+  --bs-accordion-active-bg: #222222 !important;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(34, 34, 34, 1) !important;
+}
+
+.accordion-body {
+  background-color: #444;
+  color: white;
+}
+
+.accordion-item {
+  color: var(--bs-accordion-color);
+  background-color: var(--bs-accordion-bg);
+}
+
+.accordion-item {
+  background-color: #2d2d2d;
+  color: white;
+}
+
+.accordion-header {
+  background-color: #333;
+
+  color: white;
+}
+
+.accordion-button {
+  color: white !important;
+}
+
+.li-group {
+  background-color: #222222;
+  border: white;
+  color: white;
+}
+
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+section p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+section ul {
+  margin-bottom: 20px;
+}
+
+section ul li {
+  margin-bottom: 10px;
+}
+
+/*------------------------SKILLS-------------------------*/
+
+.silver-skills {
+  background-color: #444444;
+  color: white;
+}
+
+table {
+  background-color: grey;
+  color: white;
+  border-collapse: separate;
+  width: 100%;
+  border-radius: 10px;
+
+  overflow: hidden;
+
+  border: 2px solid white;
+}
+
+th,
+td {
+  padding: 12px;
+
+  text-align: left;
+  border-bottom: 1px solid white;
+}
+
+th {
+  background-color: #222;
+}
+
+td {
+  background-color: #333;
+}
+
+/*-----------------------PROJECTS------------------------*/
+
+.silver-projects {
+  background-color: #333333;
+  color: white;
+}
+
+/*-----------------------ACHIEVEMENTS---------------------*/
+
+.silver-achievements {
+  background-color: #444444;
+  color: white;
+}
+
+/*----------------------CERTIFICATES----------------------*/
+
+.silver-certificates {
+  background-color: #333333;
+  color: white;
+}
+
+/*------------------------CODING-------------------------*/
+
+.silver-coding {
+  background-color: #444444;
+  color: white;
+}
+
+/*------------------------CONTACT--------------------------*/
+
+.silver-contact {
+  background-color: #222222;
+  color: white;
+}
+
+.contact-info {
+  text-align: center;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+.contact-info li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.silver-footer {
+  background-color: #050505;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* --------------------CONTACT US FORM---------------------- */
+button[type="submit"] {
+  background-color: #007bff;
+  border: none; 
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #00b336;
+}
+
+
+input[type="tel"] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="email"] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-left: 7px;
+}
+
+input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-left: 6px;
+}
+
+

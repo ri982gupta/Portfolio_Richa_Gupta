@@ -1,0 +1,44 @@
+HEADER 
+topbar bg #212529
+topbar p #f1f6ff
+.bg-dark #222
+
+ABOUT bg #222222
+
+EDUCATION bg #444444
+table heading bg #222 
+table bg #grey
+table data bg #333                               
+
+EXPERIENCE bg #333333  
+accordioan body bg #434343
+acc heading #333 body #444
+accordion -item , bg #2d2d2d
+
+
+SKILLS bg #444444 
+table heading bg #222 
+table bg #grey
+table data bg #333
+
+PROJECTS bg #333333
+accordioan body bg #444
+acc heading #333 body #444
+accordion -item , bg #2d2d2d
+
+
+ACHIEVEMENTS bg #444444 
+table heading bg #222 
+table bg #grey
+table data bg #333
+
+CERTIFICATES bg #333333
+accordioan body bg #444
+acc heading #333 body #444
+accordion -item , bg #2d2d2d
+
+coding bg #444444
+
+CONTACT bg #222222
+
+FOOTER bg #050505
